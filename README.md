@@ -1,2 +1,2 @@
-# c
- C language playground - SLIIT Year 1, Sem 1
+# C playground
+ C language playground - Sri Lanka Institute of Information Technology (Year 1, Semester 1)
