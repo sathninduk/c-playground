@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int a(void) {
+int main(void) {
 
     // variable declaration
     int type, days;

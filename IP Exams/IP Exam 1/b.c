@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int b(void) {
+int main(void) {
 
     // variable declaration
     int room, guests, days, tour;

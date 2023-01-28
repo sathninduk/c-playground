@@ -6,7 +6,7 @@ struct students {
 } courseH, courseM, courseF;
 
 // main function
-int ip_1(void) {
+int main(void) {
 
     // variable declaration
     int i;

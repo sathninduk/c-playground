@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int c(void) {
+int main(void) {
 
     // variable declaration
     int option, number, toppings_option;

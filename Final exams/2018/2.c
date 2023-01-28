@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // main function
-int final_2(void) {
+int main(void) {
 
     // variable declaration
     int i, j;
