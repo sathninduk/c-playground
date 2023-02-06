@@ -25,11 +25,11 @@ int main(void) {
         scanf("%s", inputName);
 
         // open file in reading mode
-        cfPtr = fopen("loyalty.txt", "r");
+        cfPtr = fopen("loyalty.dat", "r");
 
         // check if file exist and errors
         if (cfPtr == NULL) {
-            printf("Error while opening the file \"loyalty.txt\"\n"); // error message
+            printf("Error while opening the file \"loyalty.dat\"\n"); // error message
             return -1; // terminate the process
         }
 
@@ -52,11 +52,11 @@ int main(void) {
         // write file - if loyalty number does not exist
         if (!existFlag) {
             // open file in appending mode
-            cfPtr = fopen("loyalty.txt", "a");
+            cfPtr = fopen("loyalty.dat", "a");
 
             // check if file exist and errors
             if (cfPtr == NULL) {
-                printf("Error while opening the file \"loyalty.txt\"\n"); // error message
+                printf("Error while opening the file \"loyalty.dat\"\n"); // error message
                 return -1; // terminate the process
             }
 
